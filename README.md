@@ -21,14 +21,14 @@ Getting Started
 1. Include easyOpal.php into your PHP script:
 
 	`require_once('easyOpal.php');`
-2. Initialize BitcoinDark connection/object:
+2. Initialize Opal connection/object:
 
 	`$opal = new Opal ('username','password');`<br>
 
 	If you wish to make an SSL connection you can set an optional CA certificate or leave blank<br>
 	`$opal->setSSL('/full/path/to/mycertificate.cert');`
 
-3. Make calls to bitcoind as methods for your object. Examples:
+3. Make calls to opalcoind as methods for your object. Examples:
 
   `$opal->getinfo();`<br>
   
